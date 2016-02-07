@@ -1,0 +1,7 @@
+public sealed partial class YearOfSheep : Year
+{
+ private void SpringFestival(object sender, RoutedEventArgs NewYear)
+  {
+   Frame.Navigate( typeof(YearOfMonkey), HappyNewYear );
+  }
+}
